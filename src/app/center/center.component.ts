@@ -13,10 +13,11 @@ export class CenterComponent implements OnInit {
 
   constructor() { }
   myControl = new FormControl();
-  options: string[] = ['Татьяна Петровна', 'Татьяна Большая', 'Three'];
+  options = new Array<string>();
 
   people: Array<Person> = [
     {name: "Татьяна Петровна", date: new Date(),info : "Очень полезная инфа" },
+    {name: "Татьяна Боль", date: new Date(),info : "Очень полезная инфа" },
     
   ];
 
@@ -25,6 +26,11 @@ export class CenterComponent implements OnInit {
   filteredOptions: Observable<string[]>;
 
   ngOnInit() {
+    this.people.forEach(element => {
+      this.options.push(element.name);
+    });
+
+    this.options
     this.filteredOptions = this.myControl.valueChanges.pipe(
       startWith(''),
       map(value => this._filter(value))
