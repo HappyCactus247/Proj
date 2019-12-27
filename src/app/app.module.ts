@@ -9,8 +9,11 @@ import { PavlichenkoLudmilaMihailovnaComponent } from './pavlichenko-ludmila-mih
 import { ShareComponent } from './share/share.component';
 import { FAQComponent } from './faq/faq.component';
 import { LinksComponent } from './links/links.component';
-
-
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,13 @@ import { LinksComponent } from './links/links.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    MatAutocompleteModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
