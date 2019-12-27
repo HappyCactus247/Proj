@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable} from 'rxjs';
 import { startWith, map } from 'rxjs/operators';
 import { FormControl } from '@angular/forms';
-import { People as Person } from '../models/People';
+import { People as Person } from '../../models/People';
 
 @Component({
   selector: 'app-center',
