@@ -1,9 +1,10 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CenterComponent } from './center/center.component';
 import { PavlichenkoLudmilaMihailovnaComponent } from './pavlichenko-ludmila-mihailovna/pavlichenko-ludmila-mihailovna.component';
 import { ShareComponent } from './share/share.component';
 import { FAQComponent } from './faq/faq.component';
+import { LinksComponent } from './links/links.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'PavlichenkoLudmilaMihailovna', component: PavlichenkoLudmilaMihailovnaComponent },
   { path: 'ShareComponent', component: ShareComponent},
   { path: 'FAQComponent', component: FAQComponent},
+  { path: 'LinksComponent', component: LinksComponent},
 ];
 
 @NgModule({
