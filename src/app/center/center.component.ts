@@ -16,9 +16,44 @@ export class CenterComponent implements OnInit {
   options = new Array<string>();
 
   people: Array<Person> = [
-    {name: "Татьяна Петровна", date: new Date(),info : "Очень полезная инфа" },
-    {name: "Татьяна Боль", date: new Date(),info : "Очень полезная инфа" },
+    {name: "Чикуров Николай Федорович",
+    date: "Даты жизни (1919 - 1946).", 
+    rank: "Звание: Рядовой." , 
+    rewards: "Награды:",
+    rewardsinfo: "Был награждён медалью «За боевые заслуги» и медалью «За отвагу».",
+    info: "информация о солдате:",
+    infoinfo: "Чикуров Николай Федорович родился в д.Бисарка Сарапульского района Удмуртской АССР  в 1919 году в бедной семье. Воспитывался вместе с братом без отца. Имел образование – 4 класса. Как и большинство был колхозником. Незадолго до войны работал кладовщиком в колхозе «Гигант». ",
+    war: "Участие в бою:", 
+    warinfo: "Бой за Волосово. Жестокий бой разгорелся за Волосово на рассвете 27 января 1944г. Части 205-го и 31-го Гвардейских танковых полков попытались сходу взять Волосово. Однако это не удалось. И тогда эта задача была возложена на 11-ю стрелковую дивизию. В этом бою Чикуров Николай Федорович получил боевое ранение и был отправлен в госпиталь.",
+    death: "Умер:", 
+    deathinfo: "8 марта 1946 года. От туберкулёза."},
     
+    
+    {name: "",
+    date: "",
+    rank:"",
+    rewards: "", 
+    rewardsinfo: "", 
+    info: "", 
+    infoinfo: "",
+    war: "", 
+    warinfo: "", 
+    death: "",
+    deathinfo: "",},
+
+
+    {name: "",
+    date: "",
+    rank:"",
+    rewards: "", 
+    rewardsinfo: "", 
+    info: "", 
+    infoinfo: "",
+    war: "", 
+    warinfo: "", 
+    death: "",
+    deathinfo: "",},
+
   ];
 
   person: Person;
@@ -43,8 +78,8 @@ export class CenterComponent implements OnInit {
     this.person = this.people.find(data=>data.name === ev.option.value);
 
     console.log(this.person);
-    
-    
+
+
   }
 
   private _filter(value: string): string[] {

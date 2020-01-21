@@ -1,0 +1,126 @@
+.example-form{
+  color: orange
+}
+.input{
+  padding-top: 2.5%;
+  background: rgb(172, 70, 70);
+  color: orange;
+  width: 100%;
+  font-size: 200%;
+  border: 0;
+  text-align: center;
+
+}
+.per-info{
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.header{
+  font-size: 150%;
+}
+.text{
+  font-size: 100%;
+}
+@media screen and (width: 320px) {
+  .input{
+    font-size:100%;
+  }
+  .text{
+    font-size:70%;
+  }
+  .header{
+    font-size:90%;
+  }
+  .per-info{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+}
+@media screen and (width: 360px) {
+  .input{
+    font-size:100%;
+  }
+  .text{
+    font-size:70%;
+  }
+  .header{
+    font-size:90%;
+  }
+  .per-info{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (width: 375px) {
+  .input{
+    font-size:105%;
+  }
+  .text{
+    font-size:75%;
+  }
+  .header{
+    font-size:95%;
+  }
+  .per-info{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (width: 411px) {
+  .input{
+    font-size:115%;
+  }
+  .text{
+    font-size:80%;
+  }
+  .header{
+    font-size:100%;
+  }
+  .per-info{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (width: 414px) {
+  .input{
+    font-size:115%;
+  }
+  .text{
+    font-size:80%;
+  }
+  .header{
+    font-size:100%;
+  }
+  .per-info{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (width: 425px) {
+  .input{
+    font-size:120%;
+  }
+  .text{
+    font-size:85%;
+  }
+  .header{
+    font-size:105%;
+  }
+  .per-info{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (width: 768px) {
+ 
+}
+@media screen and (width: 1024px) {
+}
+@media screen and (width: 1440px) {
+}
+@media screen and (width: 1920px) {
+}
+@media screen and (width: 2560px) {
+}
+

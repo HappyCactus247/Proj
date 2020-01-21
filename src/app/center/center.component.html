@@ -1,25 +1,45 @@
+<form class="example-form" >
+    <input class="input" type="text" placeholder="Найти" aria-label="Number" matInput [formControl]="myControl"
+      [matAutocomplete]="auto">
+    <mat-autocomplete (optionSelected)="updateInfo($event)" autoActiveFirstOption #auto="matAutocomplete">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
 
-<form class="example-form">
-    <mat-form-field class="example-full-width">
-        <input type="text" placeholder="Найти" aria-label="Number" matInput [formControl]="myControl"
-            [matAutocomplete]="auto">
-        <mat-autocomplete (optionSelected)="updateInfo($event)" autoActiveFirstOption #auto="matAutocomplete">
-            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-                {{option}}
-            </mat-option>
-        </mat-autocomplete>
-    </mat-form-field>
 </form>
 
 <ng-container *ngIf="person">
-    <div>
-        {{person.name}}
-
-    </div>
-    <div>
-        {{person.date}}
-    </div>
-    <div>
-        {{person.info}}
-    </div>
+  <div class="per-info">
+  <div class="header">
+    {{person.name}}
+  </div>
+  <div class="header">
+    {{person.date}}
+  </div>
+  <div class="header">
+    {{person.rewards}}
+  </div>
+  <div class="text">
+    {{person.rewardsinfo}}
+  </div>
+  <div class="header">
+    {{person.info}}
+  </div>
+  <div class="text">
+    {{person.infoinfo}}
+  </div>
+  <div class="header">
+    {{person.war}}
+  </div>
+  <div class="text">
+    {{person.warinfo}}
+  </div>
+  <div class="header">
+    {{person.death}}
+  </div>
+  <div class="text">
+    {{person.deathinfo}}
+  </div>
+</div>
 </ng-container>
