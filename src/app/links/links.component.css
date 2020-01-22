@@ -1,3 +1,9 @@
+.p1{
+    font-size: 250%;
+}
+.p2{
+    font-size: 200%;
+}
 @media screen and (width: 320px) {
 }
 @media screen and (width: 360px) {

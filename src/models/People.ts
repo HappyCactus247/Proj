@@ -1,5 +1,6 @@
 
 export class People {
+    image: string;
     name: string;
     date: string;
     rank: string;

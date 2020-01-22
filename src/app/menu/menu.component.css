@@ -123,7 +123,7 @@ body{
   }
   .sub-container .p1{
       font-size: 130%;
-      margin-bottom: 10%;
+      margin-top: 1.5vh;
   }
   .p2{
       font-size: 70%;
@@ -136,6 +136,9 @@ body{
   }
 }
 @media screen and (width: 411px) {
+  .button3{
+    margin-top: 215px;
+  }
   .fa{
     padding-bottom: 25% ;
     font-size: 120%;
@@ -143,7 +146,7 @@ body{
   }
   .sub-container .p1{
       font-size: 160%;
-      margin-top: 3vh;
+      margin-top: 1.5vh;
   }
   .p2{
       font-size: 100%;
@@ -188,11 +191,18 @@ body{
     padding-top: 25%;
   }
   .sub-container .p1{
-      font-size: 140%;
-      margin-top: 3vh;
+      font-size: 120%;
+      margin-top: 2vh;
   }
   .p2{
-      font-size: 90%;
+      font-size: 85%;
+  }
+  .button2{
+margin-top: 210px;
+  }
+  .button3{
+    margin-top: 210px;
+
   }
   .container{
       grid-template-columns: 15% 70% 15%;
