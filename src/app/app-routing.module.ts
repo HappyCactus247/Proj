@@ -5,6 +5,8 @@ import { PavlichenkoLudmilaMihailovnaComponent } from './pavlichenko-ludmila-mih
 import { ShareComponent } from './share/share.component';
 import { FAQComponent } from './faq/faq.component';
 import { LinksComponent } from './links/links.component';
+import { RewComponent } from './rew/rew.component';
+
 
 
 const routes: Routes = [
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'ShareComponent', component: ShareComponent},
   { path: 'FAQComponent', component: FAQComponent},
   { path: 'LinksComponent', component: LinksComponent},
+  { path: 'RewComponent', component: RewComponent},
+
 ];
 
 @NgModule({

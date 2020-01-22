@@ -14,7 +14,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material';
-import { ReviewsComponent } from './reviews/reviews.component';
+import { RewComponent } from './rew/rew.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
     ShareComponent,
     FAQComponent,
     LinksComponent,
-    ReviewsComponent,
+    RewComponent,
+
   ],
   imports: [
     BrowserModule,
