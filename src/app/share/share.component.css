@@ -101,6 +101,17 @@ width: 60%;
 @media screen and (width: 1920px) {
   .vk{
     padding-top: 10%;
+width: 40%;
+
+  }
+  .discord{
+    width: 40%; ;
+
+  }
+}
+@media screen and (width: 2560px) {
+  .vk{
+    padding-top: 10%;
 width: 60%;
 
   }
@@ -109,5 +120,4 @@ width: 60%;
 
   }
 }
-@media screen and (width: 2560px) {
-}
+

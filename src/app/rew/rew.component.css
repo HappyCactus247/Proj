@@ -1,2 +1,22 @@
-
+.input{
+  color: gold;
+  background-color: rgb(172, 70, 70) ;
+  width: 50%;
+  border: 0;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 10%;
+}
+.submit{
+  margin-top: 10%;
+  color: gold;
+  background-color: rgb(172, 70, 70) ;
+  width: 50%;
+  border: 0;
+  text-align: center;
+  font-size: 250%;
+}
+.text{margin-top: 7%;
+  font-size: 200%;
+}
 

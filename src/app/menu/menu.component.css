@@ -273,6 +273,7 @@ margin-top: 210px;
 @media screen and (width: 1920px){
   .sub-container {
       font-size: 150%;
+      padding-top: 2vh;
   }
   .p2{
       font-size: 120%;
@@ -287,6 +288,7 @@ margin-top: 210px;
 @media screen and (width: 2560px) {
   .sub-container .p1{
       font-size: 300%;
+      padding-top: 2vh;
   }
   .p2{
       font-size: 200%;
